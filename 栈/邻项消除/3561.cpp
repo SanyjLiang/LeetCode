@@ -5,18 +5,10 @@
 
 class Solution {
 public:
-    //获取下一个字母
-    char getNext(char c)
+    bool is_consecutive(char x, char y)
     {
-        int pos=(c-'a'+1)%26;
-        return pos+'a';
-    }
-
-    //获取上一个字母
-    char getPrev(char c)
-    {
-        int pos=(c-'a'-1+26)%26;
-        return pos+'a';
+        int d=abs(x-y);
+        return d==1||d==25;
     }
 
     std::string resultingString(std::string s) {
@@ -24,7 +16,7 @@ public:
         std::string ans;
         for(char &c:s)
         {
-            if(!st.empty()&&(getPrev(st.top())==c||getNext(st.top())==c))
+            if(!st.empty()&&is_consecutive(st.top(),c))
             {
                 st.pop();
             }else{
