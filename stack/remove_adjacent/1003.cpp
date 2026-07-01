@@ -6,27 +6,25 @@
 class Solution {
 public:
     bool isValid(std::string s) {
-        std::stack<char>st;
+        std::stack<char> st;
         for(auto &c:s)
         {
-            if(!st.empty())
+            if(c=='b'&&(!st.empty()&&st.top()!='a'||st.empty()))
             {
-                if(st.top()=='a'&&c=='b')
-                {
-                    st.pop();
-                }else if(st.top()=='b'&&c=='c')
-                {
-                    st.pop();
-                }
-            }else {
-                st.push(c);
+                return false;
+            }else if(c=='c'&&(st.empty()||!st.empty()&&st.top()!='b'))
+            {
+                return false;
             }
-           /
+            st.push(c);
+            if(c=='c')
+            {
+                st.pop();
+                st.pop();
+                st.pop();
+            }
         }
-        if(st.top()=='c')
-        {
-            return true;
-        }else return false;
+        return st.empty();
     }
 };
 
