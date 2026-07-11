@@ -36,7 +36,7 @@ int main(int argc,const char*argv[])
         std::cin>>val;
         nums.push_back(val);
     }
-    Solution so;
+    Solution so;                                       hhhhhhhhhh
     int res=so.minDeletion(nums);
     std::cout<<res<<std::endl<<std::flush;
     std::cout<<"你好"<<std::endl<<std::flush;
