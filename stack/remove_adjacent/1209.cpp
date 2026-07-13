@@ -8,25 +8,26 @@
 class Solution {
 public:
     std::string removeDuplicates(std::string s, int k) {
-        std::unordered_map<char,int>m;
-        std::vector<char>v;
+        std::vector<std::pair<char,int>>st;
         for(auto &c:s)
         {
-            m[c]++;
-            v.push_back(c);
-            if(m[c]==k)
+            if(!st.empty()&&st.back().first==c)
             {
-                for(int i=0;i<k;i++)
+                st.back().second++;
+                if(st.back().second==k)
                 {
-                    v.pop_back();
-                    m[c]--;
+                    st.pop_back();
                 }
+            }else {
+                st.emplace_back(c,1);
             }
         }
+
         std::string ans;
-        for(int i=0;i<v.size();i++)
+        for(auto &p:st)
         {
-            ans+=v[i];
+            //追加相同的p.second个字符p.first到字符串ans后面
+            ans.append(p.second,p.first);
         }
         return ans;
     }
@@ -39,7 +40,7 @@ int main(int argc,const char*argv[])
     int k=0;
     std::cin>>s>>k;
     Solution so;
-    std::string res;
+    std::string res;  
     res=so.removeDuplicates(s,k);
     std::cout<<res<<std::endl<<std::flush;
 }
