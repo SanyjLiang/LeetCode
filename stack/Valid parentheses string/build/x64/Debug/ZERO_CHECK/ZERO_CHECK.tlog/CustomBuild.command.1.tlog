@@ -1,0 +1,10 @@
+^E:\CODEXWORKSPACE\LEETCODE\STACK\VALID PARENTHESES STRING\BUILD\CMAKEFILES\FF0270D684C2A33D76EFDC6213748657\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\cmake-4.4.0-windows-x86_64\cmake-4.4.0-windows-x86_64\bin\cmake.exe "-SE:/CodexWorkSpace/LeetCode/stack/Valid parentheses string" "-BE:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

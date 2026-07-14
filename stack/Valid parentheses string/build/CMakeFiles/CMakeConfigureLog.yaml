@@ -1,0 +1,1264 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/"
+    found: "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.14.18+a338add32
+      生成启动时间为 2026/7/14 11:28:57。
+      
+      节点 1 上的项目“E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:03.76
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/4.4.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link.com"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link.exe"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link"
+      - "G:/Microsoft VS Code/bin/lld-link.com"
+      - "G:/Microsoft VS Code/bin/lld-link.exe"
+      - "G:/Microsoft VS Code/bin/lld-link"
+      - "F:/git/cmd/lld-link.com"
+      - "F:/git/cmd/lld-link.exe"
+      - "F:/git/cmd/lld-link"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.com"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.exe"
+      - "C:/Program Files/TortoiseGit/bin/lld-link"
+      - "G:/Xshell/lld-link.com"
+      - "G:/Xshell/lld-link.exe"
+      - "G:/Xshell/lld-link"
+      - "F:/Linux/VMware 17.6/bin/lld-link.com"
+      - "F:/Linux/VMware 17.6/bin/lld-link.exe"
+      - "F:/Linux/VMware 17.6/bin/lld-link"
+      - "G:/Xftp/lld-link.com"
+      - "G:/Xftp/lld-link.exe"
+      - "G:/Xftp/lld-link"
+      - "F:/mingw64/bin/lld-link.com"
+      - "F:/mingw64/bin/lld-link.exe"
+      - "F:/mingw64/bin/lld-link"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link.com"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link.exe"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link"
+      - "E:/Python/Python312/Scripts/lld-link.com"
+      - "E:/Python/Python312/Scripts/lld-link.exe"
+      - "E:/Python/Python312/Scripts/lld-link"
+      - "E:/Python/Python312/lld-link.com"
+      - "E:/Python/Python312/lld-link.exe"
+      - "E:/Python/Python312/lld-link"
+      - "E:/Python/Launcher/lld-link.com"
+      - "E:/Python/Launcher/lld-link.exe"
+      - "E:/Python/Launcher/lld-link"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.com"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.exe"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mt.com"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mt.exe"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mt"
+      - "G:/Microsoft VS Code/bin/mt.com"
+      - "G:/Microsoft VS Code/bin/mt.exe"
+      - "G:/Microsoft VS Code/bin/mt"
+      - "F:/git/cmd/mt.com"
+      - "F:/git/cmd/mt.exe"
+      - "F:/git/cmd/mt"
+      - "C:/Program Files/TortoiseGit/bin/mt.com"
+      - "C:/Program Files/TortoiseGit/bin/mt.exe"
+      - "C:/Program Files/TortoiseGit/bin/mt"
+      - "G:/Xshell/mt.com"
+      - "G:/Xshell/mt.exe"
+      - "G:/Xshell/mt"
+      - "F:/Linux/VMware 17.6/bin/mt.com"
+      - "F:/Linux/VMware 17.6/bin/mt.exe"
+      - "F:/Linux/VMware 17.6/bin/mt"
+      - "G:/Xftp/mt.com"
+      - "G:/Xftp/mt.exe"
+      - "G:/Xftp/mt"
+      - "F:/mingw64/bin/mt.com"
+      - "F:/mingw64/bin/mt.exe"
+      - "F:/mingw64/bin/mt"
+      - "F:/Mysql/MySQL Server 8.0/bin/mt.com"
+      - "F:/Mysql/MySQL Server 8.0/bin/mt.exe"
+      - "F:/Mysql/MySQL Server 8.0/bin/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/mt.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/mt.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/mt"
+      - "E:/Python/Python312/Scripts/mt.com"
+      - "E:/Python/Python312/Scripts/mt.exe"
+      - "E:/Python/Python312/Scripts/mt"
+      - "E:/Python/Python312/mt.com"
+      - "E:/Python/Python312/mt.exe"
+      - "E:/Python/Python312/mt"
+      - "E:/Python/Launcher/mt.com"
+      - "E:/Python/Launcher/mt.exe"
+      - "E:/Python/Launcher/mt"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/\u502a/AppData/Roaming/npm/mt.com"
+      - "C:/Users/\u502a/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/\u502a/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.com"
+    found: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/"
+    found: "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.14.18+a338add32
+      生成启动时间为 2026/7/14 11:29:01。
+      
+      节点 1 上的项目“E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.25
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/4.4.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link.com"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link.exe"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/lld-link"
+      - "G:/Microsoft VS Code/bin/lld-link.com"
+      - "G:/Microsoft VS Code/bin/lld-link.exe"
+      - "G:/Microsoft VS Code/bin/lld-link"
+      - "F:/git/cmd/lld-link.com"
+      - "F:/git/cmd/lld-link.exe"
+      - "F:/git/cmd/lld-link"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.com"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.exe"
+      - "C:/Program Files/TortoiseGit/bin/lld-link"
+      - "G:/Xshell/lld-link.com"
+      - "G:/Xshell/lld-link.exe"
+      - "G:/Xshell/lld-link"
+      - "F:/Linux/VMware 17.6/bin/lld-link.com"
+      - "F:/Linux/VMware 17.6/bin/lld-link.exe"
+      - "F:/Linux/VMware 17.6/bin/lld-link"
+      - "G:/Xftp/lld-link.com"
+      - "G:/Xftp/lld-link.exe"
+      - "G:/Xftp/lld-link"
+      - "F:/mingw64/bin/lld-link.com"
+      - "F:/mingw64/bin/lld-link.exe"
+      - "F:/mingw64/bin/lld-link"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link.com"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link.exe"
+      - "F:/Mysql/MySQL Server 8.0/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/lld-link"
+      - "E:/Python/Python312/Scripts/lld-link.com"
+      - "E:/Python/Python312/Scripts/lld-link.exe"
+      - "E:/Python/Python312/Scripts/lld-link"
+      - "E:/Python/Python312/lld-link.com"
+      - "E:/Python/Python312/lld-link.exe"
+      - "E:/Python/Python312/lld-link"
+      - "E:/Python/Launcher/lld-link.com"
+      - "E:/Python/Launcher/lld-link.exe"
+      - "E:/Python/Launcher/lld-link"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/\u502a/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/"
+      - "G:/Microsoft VS Code/bin/"
+      - "F:/git/cmd/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "G:/Xshell/"
+      - "F:/Linux/VMware 17.6/bin/"
+      - "G:/Xftp/"
+      - "F:/mingw64/bin/"
+      - "F:/Mysql/MySQL Server 8.0/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/Python/Python312/Scripts/"
+      - "E:/Python/Python312/"
+      - "E:/Python/Launcher/"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u502a/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/sbin/"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/"
+      - "C:/Program Files (x86)/test/bin/"
+      - "C:/Program Files (x86)/test/sbin/"
+      - "C:/Program Files (x86)/test/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/rc.com"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/rc.exe"
+      - "G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/rc"
+      - "G:/Microsoft VS Code/bin/rc.com"
+      - "G:/Microsoft VS Code/bin/rc.exe"
+      - "G:/Microsoft VS Code/bin/rc"
+      - "F:/git/cmd/rc.com"
+      - "F:/git/cmd/rc.exe"
+      - "F:/git/cmd/rc"
+      - "C:/Program Files/TortoiseGit/bin/rc.com"
+      - "C:/Program Files/TortoiseGit/bin/rc.exe"
+      - "C:/Program Files/TortoiseGit/bin/rc"
+      - "G:/Xshell/rc.com"
+      - "G:/Xshell/rc.exe"
+      - "G:/Xshell/rc"
+      - "F:/Linux/VMware 17.6/bin/rc.com"
+      - "F:/Linux/VMware 17.6/bin/rc.exe"
+      - "F:/Linux/VMware 17.6/bin/rc"
+      - "G:/Xftp/rc.com"
+      - "G:/Xftp/rc.exe"
+      - "G:/Xftp/rc"
+      - "F:/mingw64/bin/rc.com"
+      - "F:/mingw64/bin/rc.exe"
+      - "F:/mingw64/bin/rc"
+      - "F:/Mysql/MySQL Server 8.0/bin/rc.com"
+      - "F:/Mysql/MySQL Server 8.0/bin/rc.exe"
+      - "F:/Mysql/MySQL Server 8.0/bin/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc"
+      - "E:/Python/Python312/Scripts/rc.com"
+      - "E:/Python/Python312/Scripts/rc.exe"
+      - "E:/Python/Python312/Scripts/rc"
+      - "E:/Python/Python312/rc.com"
+      - "E:/Python/Python312/rc.exe"
+      - "E:/Python/Python312/rc"
+      - "E:/Python/Launcher/rc.com"
+      - "E:/Python/Launcher/rc.exe"
+      - "E:/Python/Launcher/rc"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/\u502a/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/\u502a/AppData/Roaming/npm/rc.com"
+      - "C:/Users/\u502a/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/\u502a/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/bin/rc"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/sbin/rc.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/sbin/rc.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/sbin/rc"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/rc.com"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/rc.exe"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/rc"
+      - "C:/Program Files (x86)/test/bin/rc.com"
+      - "C:/Program Files (x86)/test/bin/rc.exe"
+      - "C:/Program Files (x86)/test/bin/rc"
+      - "C:/Program Files (x86)/test/sbin/rc.com"
+      - "C:/Program Files (x86)/test/sbin/rc.exe"
+      - "C:/Program Files (x86)/test/sbin/rc"
+      - "C:/Program Files (x86)/test/rc.com"
+      - "C:/Program Files (x86)/test/rc.exe"
+      - "C:/Program Files (x86)/test/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "G:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        - "G:\\Microsoft VS Code\\bin"
+        - "F:\\Git\\cmd"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "G:\\Xshell\\"
+        - "F:\\Linux\\VMware 17.6\\bin\\"
+        - "G:\\Xftp\\"
+        - "F:\\mingw64\\bin"
+        - "F:\\Mysql\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\bin"
+        - "E:\\Python\\Python312\\Scripts\\"
+        - "E:\\Python\\Python312\\"
+        - "E:\\Python\\Launcher\\"
+        - "E:\\Python\\Python312\\Scripts"
+        - "E:\\Python\\Python312"
+        - "E:\\Python\\Launcher"
+        - "C:\\Users\\\u502a\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u502a\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64"
+        - "C:/Program Files (x86)/test"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9"
+      binary: "E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d5eef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.18+a338add32
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/14 11:29:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\cmTC_d5eef.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d5eef.dir\\Debug\\cmTC_d5eef.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d5eef.dir\\Debug\\cmTC_d5eef.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d5eef.dir\\Debug\\cmTC_d5eef.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d5eef.dir\\Debug\\\\" /Fd"cmTC_d5eef.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.38.33145 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d5eef.dir\\Debug\\\\" /Fd"cmTC_d5eef.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\Debug\\cmTC_d5eef.exe" /INCREMENTAL /ILK:"cmTC_d5eef.dir\\Debug\\cmTC_d5eef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9/Debug/cmTC_d5eef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9/Debug/cmTC_d5eef.lib" /MACHINE:X64  /machine:x64 cmTC_d5eef.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d5eef.vcxproj -> E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\Debug\\cmTC_d5eef.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d5eef.dir\\Debug\\cmTC_d5eef.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d5eef.dir\\Debug\\cmTC_d5eef.tlog\\cmTC_d5eef.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\cmTC_d5eef.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.04
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn3rn9\\Debug\\cmTC_d5eef.exe" /INCREMENTAL /ILK:"cmTC_d5eef.dir\\Debug\\cmTC_d5eef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9/Debug/cmTC_d5eef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-hn3rn9/Debug/cmTC_d5eef.lib" /MACHINE:X64  /machine:x64 cmTC_d5eef.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33145.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40"
+      binary: "E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96749.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.18+a338add32
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/14 11:29:04銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\cmTC_96749.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_96749.dir\\Debug\\cmTC_96749.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_96749.dir\\Debug\\cmTC_96749.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_96749.dir\\Debug\\cmTC_96749.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_96749.dir\\Debug\\\\" /Fd"cmTC_96749.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.38.33145 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_96749.dir\\Debug\\\\" /Fd"cmTC_96749.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "E:\\CMake\\cmake-4.4.0-windows-x86_64\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\Debug\\cmTC_96749.exe" /INCREMENTAL /ILK:"cmTC_96749.dir\\Debug\\cmTC_96749.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40/Debug/cmTC_96749.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40/Debug/cmTC_96749.lib" /MACHINE:X64  /machine:x64 cmTC_96749.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_96749.vcxproj -> E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\Debug\\cmTC_96749.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_96749.dir\\Debug\\cmTC_96749.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_96749.dir\\Debug\\cmTC_96749.tlog\\cmTC_96749.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\cmTC_96749.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodexWorkSpace\\LeetCode\\stack\\Valid parentheses string\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ex1v40\\Debug\\cmTC_96749.exe" /INCREMENTAL /ILK:"cmTC_96749.dir\\Debug\\cmTC_96749.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40/Debug/cmTC_96749.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodexWorkSpace/LeetCode/stack/Valid parentheses string/build/CMakeFiles/CMakeScratch/TryCompile-ex1v40/Debug/cmTC_96749.lib" /MACHINE:X64  /machine:x64 cmTC_96749.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "E:/CMake/cmake-4.4.0-windows-x86_64/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33145.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
