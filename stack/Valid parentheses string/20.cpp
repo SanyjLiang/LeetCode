@@ -1,6 +1,4 @@
-#include <iostream>
-#include <stack>
-#include <string>
+#include "head.h"
 
 class Solution {
 public:
